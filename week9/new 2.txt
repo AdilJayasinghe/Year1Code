@@ -1,0 +1,39 @@
+import java.io.*
+public class files{
+	public static void main{
+		try{
+			File file = new File("mytext.txt");
+			boolean filecreate= file.createNewFile();
+			if (filecreate){
+				System.out.print("File found " + file.getName());
+			}
+			
+			if (file.exists()){
+				System.out.print("File already exists");
+			}
+		}
+		catch (Exception e){
+			System.out.print("Error " + e);
+		}
+	}
+
+}
+
+
+import java.io.*
+import java.util.*
+
+public class files{
+	public static void main{
+		File file = new File("text.txt");
+		Scanner readf = new Scanner(file);
+		//Scanner input=new Scanner(System.in);
+		String fileLine;
+		
+		while(readf.hasNext()){
+			fileLine=rf.nextLine();
+			System.out.println(lineCount + " "+ fileLine);
+		}
+		rf.close;
+	}
+}

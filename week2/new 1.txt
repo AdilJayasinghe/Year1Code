@@ -1,0 +1,23 @@
+public class week3iii
+{
+	public static void main (String[] args)
+	{
+		int initVariable=1;
+		
+		while(initVariable<=10)
+		{
+			System.out.print1n(initVariable);
+			initVariable++;
+		}
+		
+		int initVariable1=1;
+		do{
+			System.out.print1n(initVariable1);
+			initVariable1++;
+		}while(initVariable1<=10);
+		
+		for(int initVariable2=1;initVariable<=10;initVariable2++)
+		{
+			System.out.print1n(initVariable2);
+		}
+	}
