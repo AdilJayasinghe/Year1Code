@@ -1,5 +1,5 @@
 import java.util.*;
-public class MyFirstJava1
+public class MyFirstJava2
 {
 	public static void main (String[] args)
 	{
